@@ -30,22 +30,46 @@
 }
 
 /**** Columns *****/
-.column1 {
+.column {
     float: left;
+    
+}
+.left {
     width: 60%;
-    padding-left: 20px;
-    padding-right: 20px;
+  
+   
+}
+.right{
+    width: 40%;
+   
+}
+.row{
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+    
 }
+  
 
-/**** Images *****/
+/**** Quote Form *****/
 
 
 
+/**** Media Queries *****/
+
+@media only screen and (max-width: 768px){
+
+.column {
+    float: left;
+    width: 100%;
+  
+
+}
+}
 
 
