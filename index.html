@@ -9,8 +9,9 @@
   </head>
   <header>
     <div class="header"> 
-    <h1> <img  class = "logo" src= "img/New_logo.PNG" alt= "Logo for Eddleman Trucking."> Eddleman Trucking LLC</h1>
-      <h2> 4988 Farnsley Rd NE Georgetown IN</h2>
+    <h1> <img  class = "logo" src= "img/New_logo.PNG" alt= "Logo for Eddleman Trucking."> Eddleman Trucking LLC </h1>
+    <h2>Georgetown, In</h2>
+      
      
       <div id="navbar">
           <a href="index.html">Home</a>
@@ -22,8 +23,8 @@
   </header>
   
   <body>
-    <div class="row">
-      <div class="column left">  <p>We are a small full service trucking company. We own a 2017 Reitnouer Big Bubba drop deck trailer with ramps.  The trailer is a 53 foot step-deck capable of hauling approximately 45,000 pounds. The trailer's G.V.W.R. is 100,000 pounds. This weight is dependent on special over-sized weight permits/escorts in which your company would be responsible for providing. With our trailer we are able to haul: <br>
+   <!-- <div class="row">
+      <div class="column left"> --> <p>We are a small full service trucking company. We own a 2017 Reitnouer Big Bubba drop deck trailer with ramps.  The trailer is a 53 foot step-deck capable of hauling approximately 45,000 pounds. The trailer's G.V.W.R. is 100,000 pounds. This weight is dependent on special over-sized weight permits/escorts in which your company would be responsible for providing. With our trailer we are able to haul: <br>
         • Equipment <br>
         • Machinery <br>
         • Steel(beams ,pipes, coils, etc.) <br>
@@ -38,25 +39,30 @@
       We are also willing , capable and insured to haul your trailer, flat bed, van, or reefer. 
       
       If needed we are more than willing to tarp your loads.
-      </p></div>
+      </p><!--</div> -->
       
-      <div class="column right"> <p> Request a Quote </p>
-        <form>
-          Name: <br>
-          <input type="text" name="name"> <br>
-          Email: <br>
-          <input type="text" name="email"> <br>
-          Phone Number: <br>
-          <input type="text" name="phone_number"> <br>
-          Message: <br>
-          <textarea name="message" form="quoteMessage"></textarea><br>
+      <!--<div class="column right"> -->  <button class="quoteBtn">
+      <a href="#modal" class="quoteLink">  Request a Quote </a> 
+      </button> 
+      <div class="quoteModal_container" id="modal">
+        <div class="quoteModal">  
+          <a href="#" class="close">X</a>
+          <span class="modal_heading">Request a Quote</span>
+      <form>
+          <input type="text" placeholder="Name"> <br>
+          <input type="text" placeholder="Email"> <br>
+          <input type="text" placeholder="Phone Number"> <br>
+          <textarea placeholder="Message" form="quoteMessage"></textarea><br>
           Load Size: <br>
           <input type="radio" name="load" value="normal"> Normal <br>
           <input type="radio" name="load" value="over_size"> Over Size <br>
-          <input type="submit" value="Submit">
+          <input type="submit" class="submitBtn" value="Submit">
         </form>
       </div>
-    </div>
+      </div>
+
+     <!-- </div>
+    </div> -->
   
     
   
