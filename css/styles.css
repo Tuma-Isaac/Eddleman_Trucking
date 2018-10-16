@@ -9,6 +9,11 @@
  clear: left;
  margin-right: 10px;
 }
+/**** Body *****/
+
+body {
+    background-color #f2f2f2;
+}
 
 /**** Navbar *****/
 #navbar {
@@ -29,6 +34,17 @@
     background-color: gray;
 }
 
+
+  
+
+/**** Quote Form *****/
+
+
+
+/**** Media Queries *****/
+
+@media only screen and (min-width: 768px){
+
 /**** Columns *****/
 .column {
     float: left;
@@ -44,6 +60,7 @@
    
 }
 .row{
+    margin: 50px 50px;
     padding-left: 10px;
     padding-right:10px;
 }
@@ -53,23 +70,6 @@
     display: table;
     clear: both;
     
-}
-  
-
-/**** Quote Form *****/
-
-
-
-/**** Media Queries *****/
-
-@media only screen and (max-width: 768px){
-
-.column {
-    float: left;
-    width: 100%;
-  
-
-}
 }
 
 
