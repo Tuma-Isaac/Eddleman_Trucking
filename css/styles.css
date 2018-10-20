@@ -1,44 +1,110 @@
 /**** Logo *****/
-
+/*
 .logo {
- height: 100px;
- width: 100px;
+ height: 200px;
+ width: 200px;
  border-radius: 8px;
  margin-left: 50px;
  float: left;
  clear: left;
  margin-right: 10px;
 
+} */
+
+
+
+header{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
 }
+
+.header{
+    text-align: center;
+}
+
 /**** Body *****/
 
 body {
     background-color: #f2f2f2;
+    
   
+}
+
+.services_container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 12pt;
+    font-family: sans-serif;
 }
 
 
 /**** Navbar *****/
-#navbar {
-   overflow: hidden;
-   background-color: maroon;
-  
+
+
+nav {
+    width: 100%;
+    background: maroon;
 }
 
-#navbar a{
-    float: left;
-    display: block;
-    padding: 5px;
-    text-align: center;
-    color: white;
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
     
 }
-#navbar a:hover {
-    background-color: gray;
+
+ul li:hover {
+    background: gray;
 }
 
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-  
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: maroon;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display:none;
+}
+
+.nav_items {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .toggle{
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+}
+
 
 /**** Quote Modal *****/
 .quoteLink {
@@ -51,6 +117,10 @@ body {
 }
 .quoteLink:hover {
     color: black;
+}
+
+.quoteBtn_container {
+    text-align: center;
 }
 
 .quoteModal_container {
@@ -154,7 +224,7 @@ input[type=text],[type=submit],textarea {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
