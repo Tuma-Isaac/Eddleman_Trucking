@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Contact Us</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+    <div class="header"> 
+    <h1> Eddleman Trucking LLC </h1>
+     </div> 
+  <nav>
+    <div class = "toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="nav_items">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
+
+<body>
+<div class="contact_form">
+  <h1>Contact Us</h1>
+  <p>If you have any questions at all, dont hesitate to contant us. We are available 365 days a year for your convience. <br> 
+  Eddleman Trucking LLC <br>
+  4988 Farnsley Rd NE <br>
+  Georgetown, Indiana, 47122 <br>
+
+  Eddlemantruckingllc@gmail.com <br>
+  Tim Eddleman: 502-552-0914 <br>
+  Libby Eddleman: 502-523-3551 <br>
+
+  Or fill out our form below and we will get in touch with you as soon as possible. 
+  </p>
+  <form>
+    <input type="text" placeholder="First Name:">
+    <input type="text" placeholder="Last Name:">
+    <input type="text" placeholder="Phone Number:">
+    <input type="text" placeholder="Email:">
+    <textarea placeholder="Message:" style="height: 200px"></textarea>
+    <input type="submit" class="submitBtn" value="Submit">
+  </form>
+</div>
+</body>
+</html>

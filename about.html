@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/styles.css">
+     <script type="text/javascript" src="js/script.js"></script>
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+    <div class="header"> 
+    <h1> Eddleman Trucking LLC </h1>
+     </div> 
+  <nav>
+    <div class = "toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="nav_items">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('ul').toggleClass('active');
+      })
+    })
+  </script>
+
+<body>
+  <p> Welcome to Eddleman Trucking LLC. We are a small family owned business located in Georgetown Indiana. My husband Tim has been driving for over twenty years and has always dreamed of owning his own truck. We have now made that dream a reality. We work hard and take pride in everything that we do. Our customers are like family to us. We will treat your freight as if it was our own. Our goal is 100% satisfaction guranteed. We strive to build long lasting relationships with our customers. We are available 24 hours a day, seven days a week, 365 days a year for your frieght needs. </p>
+</body>
+</html>
