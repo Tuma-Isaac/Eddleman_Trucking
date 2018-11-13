@@ -328,3 +328,9 @@ input[type=text],[type=submit],textarea {
     padding: 10 50px;
     
 }
+
+/****** Google Map *****/
+#map {
+    height: 300px;
+    width: 300px;
+}
